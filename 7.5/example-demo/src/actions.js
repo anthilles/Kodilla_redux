@@ -1,8 +1,6 @@
 // import
 import uuid from 'uuid';
 
-
-
 // dodawanie
 function addComment(text) {
     return {
@@ -32,10 +30,10 @@ function deleteComment(id) {
 // like
 function thumbUpComment(commentId) {
     return {
-      type: THUMB_UP_COMMENT,
-      id: commentId
+        type: THUMB_UP_COMMENT,
+        id: commentId
     }
-  }
+}
 
 // !like
 function thumbDownComment(id) {
